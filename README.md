@@ -8,10 +8,13 @@ The file *supplementaryNotes.pdf* describes various details regarding our experi
 The subdirectory *AnnotationGuidelines* contains the individual annotation instructions for the different annotation tasks given to the raters on ProlificAcademic.
 There are four different instruction files:
 1) *instructionsAnnotatingNegativePolarExpressions.pdf*
+
 These are the instructions for annotating the set of negative polar expressions to comprise the base lexicon.
 2) *instructionsAnnotatingNegativePolarExpressionsFindingInconsistencies.pdf*
+
 These are the instructions for finding the inconsistencies in the previous annotation. (There are some further details regarding the set up in supplementaryNotes.pdf.)
 3) *instructionsMarkingExplicitMicroposts.pdf*
+
 These are the instructions for marking microposts that convey explicit language abuse.
 
 # subdirectory *Lexicon*
