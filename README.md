@@ -24,9 +24,12 @@ The format of each line is
 The label is "TRUE" for abusive words and "FALSE" for non-abusive words.
 
 2) *expandedLexicon.txt*
+
 This is the best expanded lexicon we learned with the help of a classifier trained on the base lexicon (in the paper it is called "feature-based" lexicon).
 The format of each line is
+
 <negativePolarExpression>	<SCORE>
+
 The score is positive for all expressions predicted as abusive words.
 It is negative for all expressions predicted as non-absive words.
 
@@ -34,11 +37,13 @@ It is negative for all expressions predicted as non-absive words.
 The subdirectory *ExplicitAbuse* contains the subset of the datasets "X" and "Waseem" in which only abusive microposts are included that were considered to be explicitly abusive, i.e. there is at least one abusive term included.
 There are two files:
 1) *X.txt*
+
 This file contains the explicitly abusive microposts from the "X"-dataset along non-abusive microposts.
 2) *waseem.txt*
+
 This file contains the explicitly abusive microposts from the "Waseem"-dataset along non-abusive microposts.
 The format in both files is the same.
-Microposts spread over several lines. They are separated by a line with the following sequence of symbols: #*#*#*#*#*#*#
+Microposts spread over several lines. They are separated by a line with the following sequence of symbols: #\*#\*#\*#\*#\*#\*#
 The first line of each micropost represents the class label which is either "abusive" or "notAbusive".
 Since these microposts are tweets, for legal reasons, we will not be able to release them as full text in a future public release.
 Instead these tweets will be represented by their pertaining ids.
