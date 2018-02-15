@@ -33,7 +33,7 @@ The format of each line is
 The score is positive for all expressions predicted as abusive words.
 It is negative for all expressions predicted as non-absive words.
 
-#subdirectory ExplicitAbusive
+# subdirectory *ExplicitAbusive*
 The subdirectory *ExplicitAbuse* contains the subset of the datasets "X" and "Waseem" in which only abusive microposts are included that were considered to be explicitly abusive, i.e. there is at least one abusive term included.
 There are two files:
 1) *X.txt*
