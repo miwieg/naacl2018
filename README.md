@@ -16,7 +16,7 @@ These are the instructions for marking microposts that convey explicit language 
 
 # subdirectory *Lexicon*
 The subdirectory *Lexicon* comprises the two lexicons created for this work:
-1) *baselexicon.txt*
+1) *baselexicon.txt*:
 This is the base lexicon which was manually annotated via crowdsourcing (Prolific Academic).
 The format of each line is
 <negativePolarExpression>	<LABEL>
