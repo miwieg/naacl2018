@@ -39,16 +39,16 @@ The score is positive for all expressions predicted as abusive words.
 It is negative for all expressions predicted as non-absive words.
 
 # subdirectory *ExplicitAbusive*
-The subdirectory *ExplicitAbuse* contains the subset of the datasets "X" and "Waseem" in which only abusive microposts are included that were considered to be explicitly abusive, i.e. there is at least one abusive term included.
+The subdirectory *ExplicitAbuse* contains the subset of the datasets "Warner" (Warner & Hirschberg, 2012) and "Waseem" (Waseem & Hovy, 2016) in which only abusive microposts are included that were considered to be explicitly abusive, i.e. there is at least one abusive term included.
 There are two files:
 
-1) *X.txt*
+1) *warner.txt*
 
-This file contains the explicitly abusive microposts from the "X"-dataset along non-abusive microposts.
+This file contains the explicitly abusive microposts from the "Warner"-dataset (Warner & Hirschberg, 2012) along non-abusive microposts.
 
 2) *waseem.txt*
 
-This file contains the explicitly abusive microposts from the "Waseem"-dataset along non-abusive microposts.
+This file contains the explicitly abusive microposts from the "Waseem"-dataset (Waseem & Hovy, 2016) along non-abusive microposts.
 The format in both files is the same.
 Microposts spread over several lines. They are separated by a line with the following sequence of symbols: #\*#\*#\*#\*#\*#\*#
 
@@ -66,7 +66,9 @@ If you intend to use this dataset for commercial purposes, please contact the ow
 
 
 # acknowledgments
+We thank William Warner for granting us access to his dataset on abusive language and his permission to distribute our re-annotation of his original dataset.
 This work was partially supported by the German Research Foundation (DFG) under grants RU 1873/2-1 and WI 4204/2-1.
+
 
 
 
@@ -77,4 +79,8 @@ Michael Wiegand	      email: Michael.Wiegand@lsv.uni-saarland.de
 
 
 # reference
+William Warner and Julia Hirschberg: "Detecting Hate Speech on the World Wide Web", in Workshop on Language in Social Media, 2012.
+
+Zeerak Waseem, Dirk Hovy: "Hateful Symbols or Hateful People? Predictive Features for Hate Speech Detection on Twitter", in NAACL-Student Research Workshop, 2016. 
+
 Michael Wiegand, Josef Ruppenhofer, Anna Schmidt and Clayton Greenberg: "Inducing a Lexicon of Abusive Words -- A Feature-Based Approach", in NAACL/HLT, 2018.
